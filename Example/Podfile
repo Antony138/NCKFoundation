@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NCKFoundation_Tests' do
+  pod 'NCKFoundation', :path => '../'
+  
+  
+end

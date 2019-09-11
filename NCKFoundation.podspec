@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NCKFoundation'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NCKFoundation.'
+  s.version          = '1.0'
+  s.summary          = 'Guide for private pods'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                      Guide for private pods
                        DESC
 
   s.homepage         = 'https://github.com/antony138/NCKFoundation'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'antony138' => 'an.huang@kapps.co.jp' }
   s.source           = { :git => 'https://github.com/antony138/NCKFoundation.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NCKFoundation/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'NCKFoundation' => ['NCKFoundation/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
